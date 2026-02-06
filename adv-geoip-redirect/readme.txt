@@ -2,9 +2,9 @@
 Tags: redirect, redirect visitor, redirect by country, wpml redirect
 Contributors: sajjad67
 Author: Sajjad Hossain Sagor
-Tested up to: 6.8
+Tested up to: 6.9
 Requires at least: 5.6
-Stable tag: 2.0.6
+Stable tag: 2.1.2
 Requires PHP: 8.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -23,7 +23,8 @@ Redirect your visitors according to their geographical (country) location. Using
 - Skip Redirect For Bots & Crawlers.
 - Skip Redirect Using URL Parameter.
 - Choose redirect type: 301 (Permanent) or 302 (Temporary).
-- Only Redirect Visitor When First Time Visit (reset after 24hrs).
+- Only Redirect Visitor When First Time Visit, Any URL (reset after 24hrs).
+- Only Redirect Visitor When First Time Visit, Global (reset after 24hrs).
 - Unlimited redirect rules with advanced condition logic.
 - Regex-based URL matching for granular control.
 - Pass Current Have URL Parameters To Target URL
@@ -48,6 +49,8 @@ Using the MaxMind GeoIP2 Database, the plugin accurately detects visitor locatio
 = Pro Features =
 - ✅ Full cache-plugin compatibility (WP Rocket, LiteSpeed Cache, W3TC, NitroPack, Breeze, SiteGround Optimizer, and more).
 - ✅ Faster and more accurate geolocation using MaxMind GeoIP2.
+- ✅ Enable or disable individual rule sets.
+- ✅ Add contextual notes to each rule set.
 - ✅ Device-based redirects (mobile, tablet, desktop) — create rules such as:
   - ✅ Redirect mobile visitors to an app download page.
   - ✅ Send tablet users to a simplified layout.
@@ -88,6 +91,7 @@ Get access to all of these amazing features with our [Basic Plans](https://check
 - Seraphinite Accelerator
 - ezCache
 - A2 Optimized WP
+- FlyingPress
 
 == Installation ==
 To add a WordPress Plugin using the built-in plugin installer:
@@ -117,6 +121,19 @@ Just after installing Advanced GeoIP Redirect plugin, Go to Settings -> Advanced
 3. Import & Export Section
 
 == Changelog ==
+= 2.1.2 =
+- Geo Location Db updated to the last version.
+= 2.1.1 =
+- Added a new feature where you can disable redirections for logged-in admins.
+= 2.1.0 =
+- Now it supports proxy server multiple IP detection.
+= 2.0.9 =
+- Geo Location Db updated to the last version.
+- Compatibility checkup for latest wp version 6.9
+= 2.0.8 =
+- Added skipping redirection for any url first time visit.
+= 2.0.7 =
+- Geo Location Db updated to the last version.
 = 2.0.6 =
 - Fixed fatal error because of cache library.
 = 2.0.5 =
