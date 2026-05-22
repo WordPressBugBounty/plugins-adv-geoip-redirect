@@ -1,20 +1,19 @@
-=== Advanced GeoIP Redirect ===
-Tags: redirect, redirect visitor, redirect by country, wpml redirect
-Contributors: sajjad67
-Author: Sajjad Hossain Sagor
-Tested up to: 7.0
-Requires at least: 5.6
-Stable tag: 2.1.4
-Requires PHP: 8.1
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+# Advanced GeoIP Redirect
+
+[![Plugin Banner](https://ps.w.org/adv-geoip-redirect/assets/banner-1544x500.png)](https://wordpress.org/plugins/adv-geoip-redirect/)
+
+**Tags:** redirect, redirect visitor, redirect by country, wpml redirect \
+**Tested up to:** 7.0 \
+**Requires PHP:** 8.1
 
 Redirect Visitors Based on their Geolocation Country!
 
-== Description ==
+## Description
+
 Redirect your visitors according to their geographical (country) location. Using the Maxmind GeoIP (Lite) Database.
 
-= Features: =
+### Features:
+
 - Redirect Visitors Based on Visitor Country.
 - Enable/Disable Redirection Anytime.
 - Development Mode for Testing (Logged-in Users Only).
@@ -23,8 +22,7 @@ Redirect your visitors according to their geographical (country) location. Using
 - Skip Redirect For Bots & Crawlers.
 - Skip Redirect Using URL Parameter.
 - Choose redirect type: 301 (Permanent) or 302 (Temporary).
-- Only Redirect Visitor When First Time Visit, Any URL (reset after 24hrs).
-- Only Redirect Visitor When First Time Visit, Global (reset after 24hrs).
+- Only Redirect Visitor When First Time Visit (reset after 24hrs).
 - Unlimited redirect rules with advanced condition logic.
 - Regex-based URL matching for granular control.
 - Pass Current Have URL Parameters To Target URL
@@ -33,7 +31,7 @@ Redirect your visitors according to their geographical (country) location. Using
 - Reset Plugin Settings.
 - Import/Export plugin settings across sites.
 
-= Why Go Pro? =
+### Why Go Pro?
 - Works with 25+ popular caching plugins and server-level caching.
 - Uses advanced technology to bypass cache for accurate redirects.
 - Access to advanced GeoIP2 database for higher accuracy.
@@ -46,11 +44,9 @@ The most advanced way to redirect visitors based on their country and device —
 
 Using the MaxMind GeoIP2 Database, the plugin accurately detects visitor location and device type, then applies your custom redirect rules instantly — even on heavily cached websites. The Pro version also provides a full-featured debug log viewer and actionable analytics charts.
 
-= Pro Features =
+### Pro Features
 - ✅ Full cache-plugin compatibility (WP Rocket, LiteSpeed Cache, W3TC, NitroPack, Breeze, SiteGround Optimizer, and more).
 - ✅ Faster and more accurate geolocation using MaxMind GeoIP2.
-- ✅ Enable or disable individual rule sets.
-- ✅ Add contextual notes to each rule set.
 - ✅ Device-based redirects (mobile, tablet, desktop) — create rules such as:
   - ✅ Redirect mobile visitors to an app download page.
   - ✅ Send tablet users to a simplified layout.
@@ -61,9 +57,9 @@ Using the MaxMind GeoIP2 Database, the plugin accurately detects visitor locatio
 - ✅ Developer-friendly hooks and filters for customization.
 - ✅ Priority Pro support and regular updates.
 
-Get access to all of these amazing features with our [Basic Plans](https://checkout.freemius.com/plugin/20605/plan/34286/licenses/1/) [Professional Plans](https://checkout.freemius.com/plugin/20605/plan/34326/licenses/10/) [Business Plans](https://checkout.freemius.com/plugin/20605/plan/34327/licenses/unlimited/).
+Get access to all of these amazing features with our [Premium Plans](https://checkout.freemius.com/plugin/20605/plan/34286/licenses/1/).
 
-= Supported Cache Plugins in Pro Version: =
+### Supported Cache Plugins in Pro Version:
 - WP Rocket
 - LiteSpeed Cache
 - W3 Total Cache
@@ -93,7 +89,8 @@ Get access to all of these amazing features with our [Basic Plans](https://check
 - A2 Optimized WP
 - FlyingPress
 
-== Installation ==
+## Installation
+
 To add a WordPress Plugin using the built-in plugin installer:
 
 Go to Plugins > Add New.
@@ -111,69 +108,102 @@ To add a WordPress Plugin from GitHub repo / plugin zip file :
 4. The resulting installation screen will list the installation as successful or note any problems during the install.
 If successful, click Activate Plugin to activate it, or Return to Plugin Installer for further actions.
 
-== Frequently Asked Questions ==
-= How to use this plugin? =
-Just after installing Advanced GeoIP Redirect plugin, Go to Settings -> Advanced GeoIP Redirect & There Adjust Your Settings As Well As Add Your Redirect Rules. For Regex See Screenshots Examples.
+## Frequently Asked Questions
 
-== Screenshots ==
-1. Settings panel for Advanced GeoIP Redirect Plugin.
-2. Redirect Rules List panel for Advanced GeoIP Redirect Plugin.
-3. Import & Export Section
+### How to use this plugin?
 
-== Changelog ==
-= 2.1.4 =
+Just after installing Advanced GeoIP Redirect plugin, Go to Settings -> Advanced GeoIP Redirect & There Adjust Your Setttings As Well As Add Your Redirect Rules. For Regex See Screenshots Examples.</a>
+
+## Screenshots
+
+### 1. Settings panel for Advanced GeoIP Redirect Plugin.
+
+![Settings panel for Advanced GeoIP Redirect Plugin.](https://ps.w.org/adv-geoip-redirect/assets/screenshot-1.png)
+
+### 2. Redirect Rules List panel for Advanced GeoIP Redirect Plugin.
+
+![Redirect Rules List panel for Advanced GeoIP Redirect Plugin.](https://ps.w.org/adv-geoip-redirect/assets/screenshot-2.png)
+
+### 3. Import & Export Section
+
+![Import & Export Section](https://ps.w.org/adv-geoip-redirect/assets/screenshot-3.png)
+
+## Changelog
+
+### 2.1.4
 - Compatibility checkup for latest wp version 7.0
-= 2.1.3 =
+
+### 2.1.3
 - Geo Location Db updated to the last version.
-= 2.1.2 =
+
+### 2.1.2
 - Geo Location Db updated to the last version.
-= 2.1.1 =
+
+### 2.1.1
 - Added a new feature where you can disable redirections for logged-in admins.
-= 2.1.0 =
+
+### 2.1.0
 - Now it supports proxy server multiple IP detection.
-= 2.0.9 =
+
+### 2.0.9
 - Geo Location Db updated to the last version.
 - Compatibility checkup for latest wp version 6.9
-= 2.0.8 =
+
+### 2.0.8 
 - Added skipping redirection for any url first time visit.
-= 2.0.7 =
+
+### 2.0.7 
 - Geo Location Db updated to the last version.
-= 2.0.6 =
+
+### 2.0.6 
 - Fixed fatal error because of cache library.
-= 2.0.5 =
+
+### 2.0.5
 - Fixed few bugs. Recommended to update to latest version.
-= 2.0.4 =
+
+### 2.0.4
 - Geo Location Db updated to the last version.
-= 2.0.3 =
+
+### 2.0.3
 - Geo Location Db updated to the last version. And Added a new column in the backend where you can see your IP information now
-= 2.0.2 =
+
+### 2.0.2
 - Fixed a small bug when getting user ip address
-= 2.0.1 =
+
+### 2.0.1
 - Checked for latest wp version 6.8
-= 2.0.0 =
+
+### 2.0.0
 - Geo Location Db updated to the last version. Compatibility check for wp v6.7!
-= 1.0.8 =
-- Geo Location Db updated to the last version. Compatibility check for wp v6.7!
-= 1.0.7 =
+
+### 1.0.7
 - Plugin crash fix for old PHP version. It will work now for php starting 7.2
-= 1.0.6 =
+
+### 1.0.6
 - Geo Location Db updated to the last version.
 - Compatibility check for wp v6.6!
-= 1.0.5 =
+
+### 1.0.5
 - Geo Location Db updated to the last version.
 - Compatibility check for wp v6.3!
-= 1.0.4 =
+
+### 1.0.4
 - Fixed 'Only Redirect If First Time Visit (reset after 24hrs)' issue not working previously.
 - Geo Location Db updated to the last version.
 - Compatibility check for wp v6.2!
-= 1.0.3 =
+
+### 1.0.3
 - Geo Location Db updated to the last version. Compatibility check for wp v6.0!
-= 1.0.2 =
+
+### 1.0.2
 - Geo Location Db updated to the last version. Compatibility check for wp v6.0!
-= 1.0.1 =
+
+### 1.0.1
 - Infinite Redirecting To the Same page issue is resolved
-= 1.0.0 =
+
+### 1.0.0
 - Initial release.
 
-== Upgrade Notice ==
+## Upgrade Notice
+
 Always try to keep your plugin update so that you can get the improved and additional features added to this plugin up to date.
